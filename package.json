@@ -1,0 +1,23 @@
+{
+  "name": "sleep-eat-move",
+  "version": "1.0.0",
+  "description": "Unlock the full potential of the human body! A comprehensive health and performance optimization app that blends science and technology to enhance cognitive function, improve sleep quality, and boost physical fitness. Features real-time tracking, personalized insights, and smart recommendations for sleep, nutrition, and movement to supercharge your well-being.",
+  "main": "dist/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": ["health", "performance", "sleep", "nutrition", "movement", "tracking", "cognitive-function", "fitness", "wellness", "human-optimization", "biohacking", "health-tech", "personalized-health", "real-time-monitoring", "smart-health", "performance-enhancement", "mindfulness", "stress-tracking", "workout-planning"],
+  "author": "yurukyuruk",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "vite": "^4.0.0"
+  },
+  "dependencies": {
+    "chart.js": "^4.0.0"
+  }
+}
