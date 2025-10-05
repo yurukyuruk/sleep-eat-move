@@ -10,7 +10,11 @@
     <header>
         <nav class="navbar">
             <div class="nav-brand">
-                <h1>Sleep Eat Move</h1>
+                <button>
+                    <a>
+                        <img src="/icons/sleep-eat-move-high-resolution-logo-transparent.png" alt="Sleep Eat Move Logo" class="logo-icon">
+                    </a>
+                </button>
             </div>
             <div class="nav-links">
                 <a href="#sleep" class="nav-link">Sleep</a>
@@ -25,12 +29,140 @@
 
     <main id="app">
         <div id="page-content">
-            <!-- Dynamic content will be loaded here -->
+            <section class="navigation-back">
+                <a href="#sleep" class="nav-link-back">
+                    <img src="/icons/arrow_left_alt.png" alt="Back Arrow Icon">
+                    <p>Sleep</p>
+                </a>
+            </section>
+            <section class="sleep-quality-section">
+                <div class="sleep-quality-header">
+                    <img src="/icons/bedtime.png" alt="Sleep Quality Icon" class="sleep-icon">
+                    <h2>Sleep Quality</h2>
+                </div>
+                <section>
+                    <div>
+                        <p>8h 23min</p>
+                        <p>TOTAL SLEEP</p>
+                    </div>
+                    <section>
+                        <div>
+                            <p>
+                                Deep Sleep: 1h 18min
+                            </p>
+                            <p>
+                                15.5%
+                            </p>
+                        </div>
+                        <div>
+                            <p>
+                                RAM Sleep: 1h 52min
+                            </p>
+                            <p>
+                                22.3%
+                            </p>
+                        </div>
+                    </section>
+                    <button>
+                        <a href="">See Weekly Reports</a>
+                    </button>
+                </section>
+                <section>
+                    <div class="heart-performance-header">
+                        <img src="/icons/ecg_heart.png" alt="Heart Icon" class="heart-icon">
+                        <h2>Heart Performance</h2>
+                    </div>
+                    <div>
+                        <p>72bpm</p>
+                        <p>Resting Heart Rate (RHR)</p>
+                        <div>
+                            <p>Normal</p>
+                            <img src="/icons/check_small.png" alt="Check Icon">
+                        </div>
+                    </div>
+                    <div>
+                        <p>35ms</p>
+                        <p>Heart Rate Variability (HRV)</p>
+                        <div>
+                            <p>Slightly low</p>
+                            <img src="/icons/check_small.png" alt="Check Icon">
+                        </div>
+                    </div>
+                    <button>
+                        <a href="">See Weekly Reports</a>
+                    </button>
+                </section>
+                <section>
+                    <div class="sleep-environment-header">
+                        <img src="/icons/airline_seat_individual_suit.png" alt="Sleep Icon" class="sleep-icon">
+                        <h2>Sleep Environment</h2>
+                    </div>
+                    <section>
+                        <div>
+                            <img src="/icons/device_thermostat.png" alt="Thermostat Icon" class="thermostat-icon">
+                            <p>20°C</p>
+                        </div>
+                        <p>Temperature</p>
+                        <div>
+                            <p>Normal</p>
+                            <img src="/icons/check_small.png" alt="Check Icon">
+                        </div>
+                        <button>
+                            <a>Settings</a>
+                        </button>
+                    </section>
+                    <section>
+                        <div>
+                            <img src="/icons/water_drop.png" alt="Humidity Icon" class="humidity-icon">
+                            <p>30%</p>
+                        </div>
+                        <p>Humidity</p>
+                        <div>
+                            <p>Normal</p>
+                            <img src="/icons/check_small.png" alt="Check Icon">
+                        </div>
+                        <button>
+                            <a>Settings</a>
+                        </button>
+                    </section>
+                    <section>
+                        <div>
+                            <img src="/icons/graphic_eq.png" alt="Noise Icon" class="noise-icon">
+                            <p>72db</p>
+                        </div>
+                        <p>Humidity</p>
+                        <div>
+                            <p>High</p>
+                            <img src="/icons/arrow_upward_alt.png" alt="Check Icon">
+                        </div>
+                        <button>
+                            <a>Settings</a>
+                        </button>
+                    </section>
+                    <section>
+                        <h2>Recommendations</h2>
+                        <ul>
+                            <li>
+                                <div>
+                                    <p>
+                                        Lower down the noise machine
+                                    </p>
+                                    <button>
+                                        <a href="">
+                                            Apply
+                                        </a>
+                                    </button>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                </section>
+                
         </div>
     </main>
 
     <footer>
-        <p>&copy; 2025 Sleep Eat Move - Track your human performance</p>
+        <p>&copy; 2025 Sleep Eat Move - Track your performance</p>
     </footer>
 
     <script type="module" src="src/main.ts"></script>
